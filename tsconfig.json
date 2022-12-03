@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "static/scripts",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "esnext",
+    "lib": ["ESNext", "dom"],
+    "allowJs": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"]
+}

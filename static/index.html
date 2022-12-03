@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 16px;
+      }
+
+      button {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="counter">0</h1>
+      <button onclick="addN(100)">post +100</button>
+      <button onclick="addN(1000)">post +1000</button>
+      <button onclick="terminateWorker()">Terminate worker</button>
+    </div>
+  </body>
+</html>
